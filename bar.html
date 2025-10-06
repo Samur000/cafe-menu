@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu - Бар</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>Cafe Menu</h1>
+                <p>Бар</p>
+            </div>
+            <a href="index.html" class="back-btn">← Назад</a>
+        </header>
+
+        <!-- Category Navigation -->
+        <section class="category-nav">
+            <button class="category-btn active" data-category="cocktails">Коктейли</button>
+            <button class="category-btn" data-category="coffee">Кофе</button>
+            <button class="category-btn" data-category="tea">Чай</button>
+            <button class="category-btn" data-category="smoothies">Смузи</button>
+        </section>
+
+        <!-- Bar Items -->
+        <main class="menu-content">
+            <!-- Cocktails -->
+            <div class="menu-category active" id="cocktails">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍸</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Мохито</h3>
+                            <p>Свежая мята, лайм, белый ром, содовая</p>
+                            <span class="price">450 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍹</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Пина Колада</h3>
+                            <p>Белый ром, кокосовое молоко, ананасовый сок</p>
+                            <span class="price">480 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🥃</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Виски Сауэр</h3>
+                            <p>Виски, лимонный сок, сахарный сироп, яичный белок</p>
+                            <span class="price">520 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍷</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Сангрия</h3>
+                            <p>Красное вино, фрукты, коньяк, содовая</p>
+                            <span class="price">380 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coffee -->
+            <div class="menu-category" id="coffee">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">☕</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Капучино</h3>
+                            <p>Эспрессо с молочной пенкой и ароматом ванили</p>
+                            <span class="price">180 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">☕</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Латте</h3>
+                            <p>Эспрессо с большим количеством молока</p>
+                            <span class="price">200 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">☕</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Американо</h3>
+                            <p>Классический черный кофе</p>
+                            <span class="price">150 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">☕</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Фраппе</h3>
+                            <p>Холодный кофе со льдом и молоком</p>
+                            <span class="price">220 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tea -->
+            <div class="menu-category" id="tea">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍵</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Зеленый чай</h3>
+                            <p>Свежий зеленый чай с жасмином</p>
+                            <span class="price">120 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍵</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Черный чай</h3>
+                            <p>Классический черный чай с лимоном</p>
+                            <span class="price">100 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🍵</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Ройбуш</h3>
+                            <p>Травяной чай с ванилью и корицей</p>
+                            <span class="price">140 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smoothies -->
+            <div class="menu-category" id="smoothies">
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🥤</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Ягодный смузи</h3>
+                            <p>Смесь ягод с йогуртом и медом</p>
+                            <span class="price">280 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🥤</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Зеленый смузи</h3>
+                            <p>Шпинат, банан, яблоко, имбирь</p>
+                            <span class="price">250 ₽</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image">
+                            <div class="placeholder-image">🥤</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Тропический смузи</h3>
+                            <p>Манго, ананас, кокосовое молоко</p>
+                            <span class="price">300 ₽</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
